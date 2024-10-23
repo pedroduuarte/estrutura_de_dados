@@ -1,0 +1,29 @@
+package entities;
+
+public class Lista {
+
+	No ref;
+	
+	public Lista () {
+		this.ref = null;
+	}
+
+	public No getRef() {
+		return ref;
+	}
+
+	public void setRef(No ref) {
+		this.ref = ref;
+	}
+	
+	public void insere(int info) {
+		if (ref == null) {
+			No novo = new No(info, ref);
+			this.ref = novo;
+			novo.setProx(novo);
+		}
+		No novo = new No(info, ref);
+		ref.setProx(novo);
+		}
+	
+}

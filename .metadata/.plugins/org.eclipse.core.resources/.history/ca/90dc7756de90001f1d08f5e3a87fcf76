@@ -1,0 +1,39 @@
+package entities;
+
+public class Lista {
+
+	No ref;
+
+	public Lista() {
+		this.ref = null;
+	}
+
+	public No getRef() {
+		return ref;
+	}
+
+	public void setRef(No ref) {
+		this.ref = ref;
+	}
+
+	public boolean listaVazia() {
+		return ref == null;
+	}
+
+	public void insere(int info) {
+		No novoNo = new No(info, ref);
+		if (listaVazia()) {
+			this.ref = novoNo;
+			novoNo.setProx(novoNo);
+		} else {
+			No noAtual = this.ref;
+			No noAnterior = null;
+			boolean inserido = false;
+			
+			for (No aux = this.ref.getProx(); aux != ref; aux.getProx()) {
+				noAnterior = this.ref;
+			}
+			
+		}
+	}
+}

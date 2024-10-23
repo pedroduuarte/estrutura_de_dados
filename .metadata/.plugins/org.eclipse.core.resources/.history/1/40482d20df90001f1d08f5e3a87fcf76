@@ -1,0 +1,17 @@
+package application;
+
+import entities.Lista;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Lista listaCircular = new Lista();
+		
+		listaCircular.insere(5);
+		listaCircular.insere(2);
+		listaCircular.insere(1);
+		listaCircular.insere(0);
+
+	}
+
+}
