@@ -1,0 +1,56 @@
+package application;
+
+import entities.Lista;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Lista listaCircular = new Lista();
+		System.out.println(listaCircular.imprime()); // Lista vazia
+		listaCircular.insere(5);
+		System.out.println(listaCircular.imprime());
+		listaCircular.insere(1);
+		System.out.println(listaCircular.imprime());
+		listaCircular.insere(3);
+		System.out.println(listaCircular.imprime());
+		listaCircular.insere(2);
+		System.out.println(listaCircular.imprime());
+		listaCircular.insere(6);
+		System.out.println(listaCircular.imprime());
+		listaCircular.insere(1);
+		System.out.println(listaCircular.imprime());
+		listaCircular.insere(2);
+		System.out.println(listaCircular.imprime());
+		listaCircular.insere(6);
+		System.out.println(listaCircular.imprime());
+		listaCircular.insere(7);
+		System.out.println(listaCircular.imprime());
+		listaCircular.remove(1, false);
+		System.out.println(listaCircular.imprime());
+		listaCircular.remove(2, false);
+		System.out.println(listaCircular.imprime());
+		listaCircular.remove(5, false);
+		System.out.println(listaCircular.imprime());
+		listaCircular.remove(7, false);
+		System.out.println(listaCircular.imprime());
+		listaCircular.insere(1);
+		listaCircular.insere(1);
+		System.out.println(listaCircular.imprime());
+		listaCircular.remove(1, true);
+		System.out.println(listaCircular.imprime());
+		listaCircular.insere(6);
+		listaCircular.insere(6);
+		listaCircular.insere(7);
+		listaCircular.insere(7);
+		listaCircular.insere(4);
+		listaCircular.insere(4);
+		listaCircular.insere(5);
+		System.out.println(listaCircular.imprime());
+		listaCircular.remove(4, true);
+		System.out.println(listaCircular.imprime());
+	
+	
+
+	}
+
+}
