@@ -54,7 +54,7 @@ public class Lista {
 		}
 		resultado += this.ref.getInfo();
 
-		return resultado;
+		return resultado.trim();
 	}
 
 	public void remove(int info, boolean duplicados) {

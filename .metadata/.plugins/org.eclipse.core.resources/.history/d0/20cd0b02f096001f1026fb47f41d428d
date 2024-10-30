@@ -49,12 +49,13 @@ public class Lista {
 			return "lista circular vazia";
 		}
 		String resultado = "";
-		for (No aux = this.ref.getProx(); aux != this.ref; aux = aux.getProx()) {
+		No aux = this.ref.getProx();
+		do {
 			resultado += aux.getInfo() + " ";
-		}
-		resultado += this.ref.getInfo();
+			aux = aux.getProx();
+		} while (aux != this.ref.getProx());
 
-		return resultado;
+		return resultado.trim();
 	}
 
 	public void remove(int info, boolean duplicados) {
