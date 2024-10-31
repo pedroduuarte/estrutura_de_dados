@@ -70,20 +70,18 @@ public class Lista {
 			}
 			if (info == this.ref.getProx().getInfo()) {
 				this.ref.setProx(this.ref.getProx().getProx());
-			} else {
-				for (No aux = this.ref.getProx(); aux != this.ref; aux = aux.getProx()) {
-					if (info == aux.getProx().getInfo()) {
-						if (aux.getProx() == this.ref) {
-							aux.setProx(this.ref.getProx());
-							this.ref = aux;
-							return;
-						}
-						aux.setProx(aux.getProx().getProx());
+			}
+			for (No aux = this.ref.getProx(); aux != this.ref; aux = aux.getProx()) {
+				if (info == aux.getProx().getInfo()) {
+					if (aux.getProx() == this.ref) {
+						aux.setProx(this.ref.getProx());
+						this.ref = aux;
 						return;
 					}
-				}			
+					aux.setProx(aux.getProx().getProx());
+					return;
+				}
 			}
-
 		} else {
 			while (this.ref != null && this.ref.getInfo() == info) {
 				if (this.ref.getProx() == this.ref) {

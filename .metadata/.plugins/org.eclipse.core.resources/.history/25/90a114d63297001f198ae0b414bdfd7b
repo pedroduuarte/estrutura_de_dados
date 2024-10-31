@@ -98,10 +98,7 @@ public class Program {
 		listaCircular.remove(1, true);
 		System.out.println(listaCircular.imprime()); // 3 3 3
 		listaCircular.remove(3, false);
-		System.out.println(listaCircular.imprime()); // 3 3
-		listaCircular.insere(3);
-		listaCircular.remove(3, true);
-		System.out.println(listaCircular.imprime()); // lista circular vazia
+		System.out.println(listaCircular.imprime());
 	}
 
 }
