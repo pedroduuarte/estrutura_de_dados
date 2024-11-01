@@ -1,0 +1,15 @@
+package application;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import entities.Lista;
+
+class Test {
+	  @Test
+	    void testImprimirVazia() {
+	        Lista lista = new Lista();
+	        String ret = lista.imprime();
+	        assertEquals("lista vazia", ret);
+	    }
+
+}

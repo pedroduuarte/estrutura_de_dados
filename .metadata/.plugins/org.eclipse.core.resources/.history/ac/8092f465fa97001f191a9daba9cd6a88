@@ -1,0 +1,73 @@
+package application;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+import entities.Lista;
+
+class ListaTest {
+
+	@Test
+    void testImprimirVazia() {
+        Lista lista = new Lista();
+        String ret = lista.imprime();
+        assertEquals("lista vazia", ret);
+    }
+
+    @Test
+    void testInserirCrescente() {
+        Lista lista = new Lista();
+        lista.insere(1);
+        lista.insere(2);
+        lista.insere(3);
+        String ret = lista.imprime();
+        assertEquals("1 2 3", ret);
+    }
+    
+    @Test
+    void testInserirDecrescente() {
+        Lista lista = new Lista();
+        lista.insere(3);
+        lista.insere(2);
+        lista.insere(1);
+        String ret = lista.imprime();
+        assertEquals("1 2 3", ret);
+    }
+    
+    @Test
+    void testInserirForaDeOrdem() {
+        Lista lista = new Lista();
+        lista.insere(2);
+        lista.insere(1);
+        lista.insere(3);
+        String ret = lista.imprime();
+        assertEquals("1 2 3", ret);
+    }
+    
+    @Test
+    void testInserirRepetidoForaDeOrdem() {
+        Lista lista = new Lista();
+        lista.insere(2);
+        lista.insere(2);
+        lista.insere(3);
+        lista.insere(1);
+        lista.insere(3);
+        lista.insere(2);
+        lista.insere(3);
+        lista.insere(0);
+        lista.insere(3);
+        String ret = lista.imprime();
+        assertEquals("0 1 2 2 2 3 3 3 3", ret);
+    }
+    
+    @Test
+    void testRemoverSemElemento() {
+        Lista lista = new Lista();
+        lista.remove(1, false);
+        String ret = lista.imprime();
+        assertEquals("lista vazia", ret);
+    }
+    
+    
+}

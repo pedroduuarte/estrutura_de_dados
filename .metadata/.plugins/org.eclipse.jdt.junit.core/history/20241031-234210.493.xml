@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ListaTest" project="lista_circular" tests="18" started="18" failures="0" errors="0" ignored="0">
+  <testsuite name="application.ListaTest" time="0.031" displayname="ListaTest" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]">
+    <testcase name="testRemoverSemDuplicados" classname="application.ListaTest" time="0.02" displayname="testRemoverSemDuplicados()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testRemoverSemDuplicados()]"/>
+    <testcase name="testInserirDecrescente" classname="application.ListaTest" time="0.001" displayname="testInserirDecrescente()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testInserirDecrescente()]"/>
+    <testcase name="testVazia" classname="application.ListaTest" time="0.001" displayname="testVazia()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testVazia()]"/>
+    <testcase name="testRemoverMeio" classname="application.ListaTest" time="0.001" displayname="testRemoverMeio()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testRemoverMeio()]"/>
+    <testcase name="testRemoverComDuplicados" classname="application.ListaTest" time="0.0" displayname="testRemoverComDuplicados()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testRemoverComDuplicados()]"/>
+    <testcase name="testRemoverUnicoElemento" classname="application.ListaTest" time="0.0" displayname="testRemoverUnicoElemento()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testRemoverUnicoElemento()]"/>
+    <testcase name="testImprimirVazia" classname="application.ListaTest" time="0.0" displayname="testImprimirVazia()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testImprimirVazia()]"/>
+    <testcase name="test1" classname="application.ListaTest" time="0.0" displayname="test1()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:test1()]"/>
+    <testcase name="test2" classname="application.ListaTest" time="0.001" displayname="test2()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:test2()]"/>
+    <testcase name="test3" classname="application.ListaTest" time="0.0" displayname="test3()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:test3()]"/>
+    <testcase name="test4" classname="application.ListaTest" time="0.0" displayname="test4()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:test4()]"/>
+    <testcase name="test5" classname="application.ListaTest" time="0.001" displayname="test5()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:test5()]"/>
+    <testcase name="testRemoverFim" classname="application.ListaTest" time="0.0" displayname="testRemoverFim()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testRemoverFim()]"/>
+    <testcase name="testInserirRepetidoForaDeOrdem" classname="application.ListaTest" time="0.0" displayname="testInserirRepetidoForaDeOrdem()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testInserirRepetidoForaDeOrdem()]"/>
+    <testcase name="testInserirForaDeOrdem" classname="application.ListaTest" time="0.001" displayname="testInserirForaDeOrdem()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testInserirForaDeOrdem()]"/>
+    <testcase name="testRemoverSemElemento" classname="application.ListaTest" time="0.001" displayname="testRemoverSemElemento()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testRemoverSemElemento()]"/>
+    <testcase name="testRemoverInicio" classname="application.ListaTest" time="0.0" displayname="testRemoverInicio()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testRemoverInicio()]"/>
+    <testcase name="testInserirCrescente" classname="application.ListaTest" time="0.001" displayname="testInserirCrescente()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testInserirCrescente()]"/>
+  </testsuite>
+</testrun>

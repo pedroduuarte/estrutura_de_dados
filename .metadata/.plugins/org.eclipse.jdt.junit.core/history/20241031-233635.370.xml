@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ListaTest" project="lista_circular" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="application.ListaTest" time="0.014" displayname="ListaTest" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]">
+    <testcase name="testImprimirVazia" classname="application.ListaTest" time="0.014" displayname="testImprimirVazia()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testImprimirVazia()]"/>
+  </testsuite>
+</testrun>

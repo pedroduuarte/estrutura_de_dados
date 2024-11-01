@@ -46,7 +46,7 @@ public class Lista {
 
 	public String imprime() {
 		if (listaVazia()) {
-			return "lista circular vazia";
+			return "lista vazia";
 		}
 		String resultado = "";
 		for (No aux = this.ref.getProx(); aux != this.ref; aux = aux.getProx()) {

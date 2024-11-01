@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ListaTest" project="lista_circular" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="application.ListaTest" time="0.023" displayname="ListaTest" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]">
+    <testcase name="testInserirDecrescente" classname="application.ListaTest" time="0.02" displayname="testInserirDecrescente()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testInserirDecrescente()]"/>
+    <testcase name="testImprimirVazia" classname="application.ListaTest" time="0.001" displayname="testImprimirVazia()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testImprimirVazia()]"/>
+    <testcase name="testInserirForaDeOrdem" classname="application.ListaTest" time="0.001" displayname="testInserirForaDeOrdem()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testInserirForaDeOrdem()]"/>
+    <testcase name="testInserirCrescente" classname="application.ListaTest" time="0.0" displayname="testInserirCrescente()" uniqueid="[engine:junit-jupiter]/[class:application.ListaTest]/[method:testInserirCrescente()]"/>
+  </testsuite>
+</testrun>
