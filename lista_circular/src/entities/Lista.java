@@ -81,7 +81,7 @@ public class Lista {
 						aux.setProx(aux.getProx().getProx());
 						return;
 					}
-				}			
+				}
 			}
 
 		} else {
@@ -98,7 +98,6 @@ public class Lista {
 					this.ref = aux;
 				}
 			}
-
 			for (No aux = this.ref; aux.getProx() != this.ref;) {
 				if (info == aux.getProx().getInfo()) {
 					aux.setProx(aux.getProx().getProx());
