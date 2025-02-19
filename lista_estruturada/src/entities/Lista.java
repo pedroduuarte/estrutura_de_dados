@@ -30,6 +30,8 @@ public class Lista {
 		}
 		System.out.println();
 	}
+	
+
 
 	public void remove(int info) {
 		if (listaVazia()) {
